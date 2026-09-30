@@ -1,0 +1,32 @@
+# Configuração local e caches
+*.iml
+.idea/
+.gradle/
+.kotlin/
+local.properties
+.DS_Store
+Thumbs.db
+
+# Saídas de build
+**/build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+
+# Credenciais e assinatura
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+keystore.properties
+key.properties
+*.pem
+*.p12
+*.pfx
+
+# Arquivos locais de agentes
+.codex/
+.agents/
